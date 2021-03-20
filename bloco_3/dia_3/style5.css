@@ -35,3 +35,24 @@ li {
 a:hover {
     font-weight: bolder;
 }
+
+.stack:hover {
+    color: orange;
+}
+
+.school:hover {
+    color: green;
+}
+
+.developer:hover {
+    color: black;
+}
+
+.devdocs:hover {
+    color: yellow;
+}
+
+.trybe:hover {
+    color: green;
+}
+
