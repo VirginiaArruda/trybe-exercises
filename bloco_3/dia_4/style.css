@@ -1,3 +1,32 @@
 body {
     background-color: #caf7e3;
 }
+
+
+.navigation {
+    list-style: none;
+}
+
+.home {
+    float: left;
+    margin-right: 30px;
+}
+
+.about {
+    float: left;
+    margin-right: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 1px;
+    
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
