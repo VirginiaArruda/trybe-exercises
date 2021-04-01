@@ -12,5 +12,11 @@ let info2 = {
     recorrente: 'sim',
   };
 
-for (info)
+for (let item in info) {
+  if (info[item] === info.recorrente && info[item] === 'sim' && info2[item] === 'sim') {
+    console.log('Ambos recorrentes');
+  } else {
+    console.log(info[item] + ' e ' + info2[item]);
+  }
+}
   
