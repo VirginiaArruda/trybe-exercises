@@ -11,3 +11,8 @@ for (let index = 0; index < emergencyTasks2.length; index += 1){
 
 let noEmergencyTasks = document.getElementsByClassName("no-emergency-tasks");
 noEmergencyTasks[0].style.background = 'yellow';
+
+let noEmergencyTasks2 = document.querySelectorAll(".no-emergency-tasks h3");
+for (let index = 0; index < noEmergencyTasks2.length; index += 1){
+  noEmergencyTasks2[index].style.background = 'black';
+}
