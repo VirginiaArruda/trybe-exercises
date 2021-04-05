@@ -69,7 +69,14 @@
        upperCase[1].innerText = upperCase[1].innerText.toUpperCase();
        }
        changeUppercase();
-             
+
+       function showTagP() {
+        let showTag = document.getElementsByTagName("p");
+        for (let index = 0; index < showTag.length; index += 1) {
+        console.log(showTag[index].innerText);
+        } 
+      }
+      showTagP()     
        
            
        
