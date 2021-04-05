@@ -39,18 +39,43 @@
       </div>
     </div>
     <script>
-
-       let centerContent = document.getElementsByTagName("p");        
+      
+       function changeDescription() {
+        let centerContent = document.getElementsByTagName("p");        
        centerContent[1].innerText = "Como eu me vejo daqui a 2 anos."
+       }
+       changeDescription();
 
-       let mainContent = document.getElementsByClassName("main-content")
-       mainContent[0].style.backgroundColor = ("rgb(76,164,109)")
-         
-       let centerContent2 = document.getElementsByClassName("center-content")
+       function changeColor() {
+        let mainContent = document.getElementsByClassName("main-content")
+       mainContent[0].style.backgroundColor = "rgb(76,164,109)"
+       }
+       changeColor();
+
+       function changeColor2() {
+        let centerContent2 = document.getElementsByClassName("center-content")
        centerContent2[0].style.backgroundColor = "white";
+       } 
+       changeColor2();
 
-       let title = document.getElementsByTagName("h1");        
+       function correctText() {
+        let title = document.getElementsByTagName("h1");        
        title[0].innerText = "Exercício 5.1 - JavaScript"
+       }
+       correctText();
+
+       function changeUppercase() {
+        let upperCase = document.getElementsByTagName("p");
+       upperCase[1].innerText = upperCase[1].innerText.toUpperCase();
+       }
+       changeUppercase();
+             
+       
+           
+       
+
+       
+       
 
        
 
